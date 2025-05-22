@@ -1,0 +1,42 @@
+# 📊 Dataset: Credit Card Fraud Detection
+
+This dataset contains transactions made by credit cards in September 2013 by European cardholders. The dataset presents transactions that occurred over two days, with 284,807 transactions in total, out of which 492 are frauds.
+
+## 📁 Source
+
+You can download the dataset from Kaggle:  
+🔗 https://www.kaggle.com/datasets/jacklizhi/creditcard
+
+> Replace `<INSERT_KAGGLE_DATASET_LINK_HERE>` with the actual URL to your dataset on Kaggle.
+
+## 📄 File Information
+
+- **File Name**: `creditcard.csv`
+- **Size**: ~60 MB
+- **Format**: CSV (Comma-Separated Values)
+
+## 📌 Features
+
+| Feature | Description |
+|---------|-------------|
+| Time    | Time elapsed since the first transaction |
+| V1–V28  | Principal Components (PCA transformed for confidentiality) |
+| Amount  | Transaction amount |
+| Class   | Target label (0 = Legitimate, 1 = Fraudulent) |
+
+## ⚠️ Notes
+
+- The dataset is **highly imbalanced**: only ~0.17% of transactions are fraudulent.
+- Features V1–V28 are anonymized to protect sensitive data.
+- The dataset is well-suited for binary classification and anomaly detection tasks.
+
+## 🧠 Usage
+
+This dataset is used for training and evaluating fraud detection models, particularly:
+- Logistic Regression
+- Random Forest
+- Neural Networks
+- Anomaly Detection Techniques
+
+---
+
